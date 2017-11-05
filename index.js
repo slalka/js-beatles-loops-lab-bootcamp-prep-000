@@ -3,7 +3,6 @@ function theBeatlesPlay(m,i){
   for(var j = 0;j < m.length; j++){
     a.push(`${m[j]} plays ${i[j]}`)
   }
-  console.log(a)
   return a
 }
 function johnLennonFacts(f){
@@ -17,6 +16,7 @@ function iLoveTheBeatles(n){
 var a = []
   do {
     a.push("I love the Beatles!")
+    n++
   } while (n<15);
 return a;
 }
