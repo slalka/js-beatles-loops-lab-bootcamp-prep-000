@@ -6,3 +6,10 @@ function theBeatlesPlay(m,i){
   console.log(a)
   return a
 }
+function johnLennonFacts(f){
+  var i = f.length
+  while(i--){
+    f[i] = f[i]+ "!!!"
+  }
+ return f
+}
