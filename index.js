@@ -17,6 +17,6 @@ var a = []
   do {
     a.push("I love the Beatles!")
 
-  } while (n++<15);
+  } while (n++<14);
 return a;
 }
